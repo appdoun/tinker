@@ -1,0 +1,21 @@
+{
+    "name": "totta/tinker",
+    "type": "project",
+    "description": "Immediately make a testing environment for your php code.",
+    "keywords": [
+        "tinker",
+        "experiment"
+    ],
+    "license": "MIT",
+    "require": {
+        "symfony/var-dumper": "^5.1",
+        "filp/whoops": "2.7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Src\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
